@@ -1,20 +1,3 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-label {
-    color: black
-}
-
-.btn_1,
-a,
-a.btn_1 {
-    -moz-transition: all .3s ease-in-out;
-    outline: 0
-}
-
 body,
 html {
     height: 100%
@@ -23,14 +6,6 @@ html {
 html * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
-}
-
- body {
-    background: #e7e8ef;
-    line-height: 1.4;
-    font-size: 14px;
-    color: #555;
-    font-family: "Poppins";
 }
 
 a.animated_link.active:before,
@@ -408,7 +383,7 @@ h3 .slide_typo strong {
 }
 
 .content-left-wrapper.bg_hotel:before {
-    background: url("../img/slides/slide_3.jpg") center center no-repeat;
+    background: url("img-reservar/slides/slide_3.jpg") center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
