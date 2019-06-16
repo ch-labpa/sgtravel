@@ -1,7 +1,7 @@
 <div class="container main-menu">
 	<div class="align-items-center justify-content-between d-flex">
 			<div id="logo">
-				<a href="./"><img src="img/logo.png" alt="SG Travel" title=""></a>
+				<a href="inicio"><img src="img/logo.png" alt="SG Travel" title=""></a>
 			</div>
 
 			<nav id="nav-menu-container">
@@ -17,7 +17,7 @@
 					<li><a href="tips"><i class="fa fa-lightbulb"></i>&nbsp; Tips</a></li>
 					<li><a href="servicios"><i class="fa fa-suitcase"></i>&nbsp; Servicios</a></li>
 					<li class="mobile1" style="color:#4a4f59;"><a> | </a></li>
-					<li><a href="reservar"><i class="fa fa-plus"></i>&nbsp; Reservar ahora</a></li>
+					<li><a href="./"><i class="fa fa-plus"></i>&nbsp; Reservar</a></li>
 				</ul>
 			</nav>
 	</div>

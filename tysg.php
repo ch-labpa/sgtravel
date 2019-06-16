@@ -9,7 +9,7 @@
     gtag('config', 'UA-120498835-1');
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" href="../img/fav.ico">
+  <link rel="shortcut icon" href="img/fav.ico">
   <meta name="author" content="SG Travel Group">
   <meta name="description" content="SG es una agencia de viajes con más de 30 años de experiencia ofrecemos las mejores ofertas de viajes, hoteles , alquiler de autos,
 excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para organizar el viaje soñado.">
@@ -21,20 +21,19 @@ excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/menu.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet">
+    <link href="css-reservar/bootstrap.min.css" rel="stylesheet">
+    <link href="css-reservar/style.css" rel="stylesheet">
+	  <link href="css-reservar/vendors.css" rel="stylesheet">
 
 	<script src="js/modernizr.js"></script>
 </head>
  <script type="text/javascript">
   function delayedRedirect(){
-      window.location = ".././"
+      window.location = "inicio"
   }
 </script>
 <body onLoad="setTimeout('delayedRedirect()', 9000)">
-<a href="./" id="logo"><img src="../img/logo.png" alt="" height="65"></a>
+<a href="inicio" id="logo"><img src="img/logo.png" alt="" height="65"></a>
 
 <div id="success">
     <div class="icon icon--order-success svg">

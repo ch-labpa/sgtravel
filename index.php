@@ -24,29 +24,28 @@ excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para 
     <link href="css-reservar/bootstrap.min.css" rel="stylesheet">
     <link href="css-reservar/style.css" rel="stylesheet">
 	<link href="css-reservar/vendors.css" rel="stylesheet">
-	<link href="css-reservar/main.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
 
-	<script src="js/modernizr.js"></script>
+	<script src="js-reservar/modernizr.js"></script>
 </head>
 
 <body>
+	<header id="header">
+		<?php include('includes/header.php'); ?>
+	</header>
 
-  <div id="preloader">
-		<div data-loader="circle-side-2"></div>
+	<div id="preloader">
+			<div data-loader="circle-side-2"></div>
 	</div>
 
 	<div id="loader_form">
 		<div data-loader="circle-side-2"></div>
 	</div>
-	<div class="container-fluid full-height">
-		<div class="row row-height">
+	<div class="container-fluid full-height" style="margin-top: 4.5em;">
+		<div class="row row-height bg">
 			<div class="col-lg-6 content-left">
-				<div class="content-left-wrapper bg_hotel">
+				<div class="content-left-wrapper">
 					<div class="wrapper">
-						<header id="header">
-  							<?php include('../includes/header.php'); ?>
-  						</header>
-						<!-- /social -->
 						<div class="left_title">
 							<h3>Solicita tu Reserva</h3>
 							<p>Cómodo. Rápido. Fácil.</p>
@@ -187,25 +186,26 @@ excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para 
 						</form>
 					</div>
 					<!-- /Wizard container -->
-
-					<div class="footer">
-						<p>©2019 S&G Travel Group todos los derechos reservados.</p>
-					</div>
-					<!-- Footer -->
 			</div>
 		</div>
 	</div>
+	<footer class="footer-area">
+		<div class="container">
+			<?php include('includes/footer.php'); ?>
+		</div>
+	</footer>
 
 	<a class="cd-nav-trigger" href=".././"><i class="lnr lnr-chevron-left"></i></a>
 
 	<!-- COMMON SCRIPTS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/common_scripts.min.js"></script>
-	<script src="js/velocity.min.js"></script>
-	<script src="js/functions.js"></script>
+	<script src="js-reservar/jquery-3.2.1.min.js"></script>
+    <script src="js-reservar/common_scripts.min.js"></script>
+	<script src="js-reservar/velocity.min.js"></script>
+	<script src="js-reservar/functions.js"></script>
+	<script src="js/main.js"></script>
 
 	<!-- Wizard script -->
-	<script src="js/reservationfuncs.js"></script>
+	<script src="js-reservar/reservationfuncs.js"></script>
   <script>
 	function autocomplete(inp, arr) {
 	  var currentFocus;

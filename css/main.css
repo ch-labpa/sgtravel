@@ -2126,7 +2126,7 @@ table.maspaquetes {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: linear-gradient(-300deg, #d5007d, #e53935);
+  background: #e7e8ef;
   padding-top: 25px;
   padding-bottom: 15px;
 }
@@ -2186,7 +2186,7 @@ table.maspaquetes {
 }
 
 .single-footer-widget p {
-  color: white;
+  color: #4a4f59;
   margin: 0;
   padding: 0;
 }
@@ -2197,9 +2197,8 @@ table.maspaquetes {
 }
 
 .single-footer-widget ul li a {
-  font-size: 17px;
-  color: white;
-  opacity: .7;
+  font-size: 18px;
+  color: #00bbf0;
   -webkit-transition: all 0.1s ease 0s;
   -moz-transition: all 0.1s ease 0s;
   -o-transition: all 0.1s ease 0s;
@@ -2207,17 +2206,18 @@ table.maspaquetes {
 }
 
 .single-footer-widget ul li a:hover {
-  opacity: 1;
+  color: #00bbf0;
+  text-decoration-line: underline;
 }
 
 .footer-bottom {
   padding-top: 10px;
   margin-top: 15px;
-  border-top: 1px solid black;
+  border-top: 1px solid #4a4f59;
 }
 
 .footer-text {
-  color: white;
+  color: #4a4f59;
   font-size: 15px;
 }
 
@@ -2233,7 +2233,7 @@ table.maspaquetes {
   display: inline-block;
   font-size: 20px;
   font-weight: 500;
-  color: #252525;
+  color: #4a4f59;
   margin-right: 10px;
 }
 
@@ -2243,7 +2243,7 @@ table.maspaquetes {
 }
 
 .single-footer-widget .single-contact-address .contact-details h5 {
-  color: white;
+  color: #4a4f59;
   font-weight: 300;
   font-size: 16px;
   margin-bottom: 5px;

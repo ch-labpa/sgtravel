@@ -107,15 +107,6 @@ a {
     transition: all .3s ease-in-out
 }
 
-#social ul li a,
-.btn_1,
-.dd-option,
-a.animated_link,
-a.animated_link.active,
-a.btn_1 {
-    text-decoration: none
-}
-
 a:focus,
 a:hover {
     color: #111;
@@ -136,13 +127,6 @@ a.animated_link:before {
     -webkit-transition: all .3s ease;
     -ms-transition: all .3s ease;
     transition: all .3s ease
-}
-
-#social ul li a,
-.btn_1,
-a.btn_1,
-span.error {
-    -o-transition: all .3s ease-in-out
 }
 
 a.animated_link:hover:before {
@@ -353,7 +337,7 @@ h3 .slide_typo strong {
 }
 
 .row-height {
-    height: 100vh
+    height: 80vh;
 }
 
 @media (max-width:767px) {
@@ -382,12 +366,16 @@ h3 .slide_typo strong {
     }
 }
 
-.content-left-wrapper.bg_hotel:before {
-    background: url("img-reservar/slides/slide_3.jpg") center center no-repeat;
+.bg {
+    background: url("../img-reservar/slides/slide_3.jpg") center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover
+    background-size: cover;
+}
+
+.content-left-wrapper, .content-right {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .content-left-wrapper:before {
@@ -414,8 +402,6 @@ a#logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, .3)
 }
 
 #social,
@@ -430,7 +416,7 @@ a#logo {
 }
 
 .content-left-wrapper .wrapper .left_title h3 {
-    color: white;
+    color: #4a4f59;
     padding: 0 20px;
     display: inline-flex;
     font-size: 45px;
@@ -440,6 +426,7 @@ a#logo {
 }
 
 .content-left-wrapper .wrapper .left_title p {
+    color:#4a4f59;
     font-size: 25px;
     padding: 0;
     margin: 0
@@ -690,7 +677,8 @@ h3.main_question {
 
 h3.main_question strong {
     display: block;
-    color: #999;
+    color: #00bbf0;
+    font-weight:700;
     margin-bottom: 3px
 }
 
