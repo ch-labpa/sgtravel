@@ -1,53 +1,22 @@
-<?php include"db.php" ?>
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: black;" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php">SG Staff</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+<header>
+    <div class="container main-menu">
+	    <div class="align-items-center justify-content-between d-flex">
+			<div id="logo">
+				<a href="../inicio"><img src="../img/logo.png" alt="SG Travel" title=""></a>
+			</div>
 
-                    <?php
-                    if(isset($_SESSION['s_username'])) {
-                        if ($_SESSION['s_role']=='admin') {
-                            ?>
-                            <li>
-                                <a href="admin/index.php"><i class="fa fa-fw fa-child"></i>Admin</a>
-                            </li>
-                    }
-                    <?php } } ?>
+			<nav id="nav-menu-container">
+				<ul class="nav-menu">
+                <?php
+                    if (isset($_SESSION['s_username'])) { ?>
+                        <li><a href="controlcenter/index.php"><i class="fa fa-user"></i> Centro de control</a></li>
+                        <li><a href="includes/logout.php"><i class="fa fa-fw fa-power-off"></i> Cerrar sesión</a></li>
 
-                    <?php
-                        if (isset($_SESSION['s_username'])) {
-                            # code...
-                            ?>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php
-
-                                if(isset($_SESSION['s_username']))
-                                echo ucfirst($_SESSION['s_username']); ?> <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="includes/logout.php"><i class="fa fa-fw fa-power-off"></i> Cerrar sesión</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                    <?php    }
-                    ?>
-
-
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+                <?php } ?>
+                        <li><a style="font-size=15px;" href="../inicio"><i class="fa fa-chevron-left"></i>&nbsp; Volver al sitio de SG</a></li>
+				</ul>
+			</nav>
+	    </div>
+    </div>  
+</header>
+        

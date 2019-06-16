@@ -1,10 +1,6 @@
 <?php ob_start(); ?>
-<?php session_start();
-// $_SESSION['s_username'] = null;
-// $_SESSION['s_firstname'] = null;
-// $_SESSION['s_lastname'] = null;
-// $_SESSION['s_role'] = null;
-?>
+<?php session_start();?>
+<?php include "../includes/db.php" ?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -16,10 +12,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>staff | SG Travel Group</title>
+    <title>Centro de control | SG Travel Group</title>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

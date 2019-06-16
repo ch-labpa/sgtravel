@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700&display=swap');
+body {
+    color: black;
+    background: #e7e8ef;
+    font-family: "Muli", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    overflow-x: hidden;
+}
+
+#logo img {
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+#logo a {
+    font-size: 22px;
+    color: #00bbf0;
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    #logo img {
+        height: 50px;
+        padding-left: 7px;
+    }
+}
+
+/* =================================== */
+/*  Menu Styles
+/* =================================== */
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.main-menu {
+    position: relative;
+    padding: 0 0 2px 0;
+    width: 100%;
+  }
+  
+  #header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.2s;
+    z-index: 997;
+  }
+  
+  .header-scrolled {
+    background: #e7e8ef;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  /* Nav Menu Essentials */
+  .nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .nav-menu li {
+    display: inline-block;
+  }
+  
+  /* Nav Meu Container */
+  @media (max-width: 768px) {
+    #nav-menu-container {
+      display: none;
+    }
+  }
+  
+  /* Nav Meu Styling */
+  .nav-menu a {
+    padding: 0;
+    text-decoration: none;
+    display: inline;
+    color: #4a4f59;
+    border-bottom: 2px solid transparent;
+    font-size: 17px;
+    font-weight: 400;
+    outline: none;
+    -webkit-transition: all 0.1s ease 0s;
+    -moz-transition: all 0.1s ease 0s;
+    -o-transition: all 0.1s ease 0s;
+    transition: all 0.1s ease 0s;
+  }
+
+  .controlcenter-navmenu a {
+    font-weight: 700;
+    font-size: 16.5px;
+  }
+  
+  .nav-menu li:hover > a {
+    border-bottom: 2px solid;
+  }
+  
+  .nav-menu > li {
+    margin-left: 10px;
+  }
+  
+  .nav-menu i {
+    font-size: 20px;
+  }
+  
+  /* Mobile Nav Toggle */
+  #mobile-nav-toggle {
+    float: right;
+    z-index: 999;
+    margin-top: 10px;
+    border: 0;
+    background: none;
+    font-size: 30px;
+    display: none;
+    transition: all 0.4s;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #mobile-nav-toggle i {
+    color: black;
+    opacity: .9;
+    font-weight: 900;
+    padding: 0 0 0 20px;
+  }
+  
+  #mobile-nav-toggle i:active {
+    opacity: 1;
+  }
+  
+  @media (max-width: 991px) {
+    #mobile-nav-toggle {
+      display: inline;
+    }
+    #nav-menu-container {
+      display: none;
+    }
+  }
+  
+  /* Mobile Nav Styling */
+  #mobile-nav {
+    position: fixed;
+    top: 0;
+    padding-top: 18px;
+    bottom: 0;
+    z-index: 998;
+    background: rgba(0, 0, 0, 0.8);
+    right: -230px;
+    width: 230px;
+    overflow-y: auto;
+    transition: 0.4s;
+  }
+  
+  #mobile-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  #mobile-nav ul li {
+    position: relative;
+  }
+  
+  #mobile-nav ul li a {
+    color: #eee;
+    opacity: .9;
+    font-size: 17px;
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 10px 22px 10px 15px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    outline: none;
+    font-weight: 400;
+  }
+  
+  #mobile-nav ul li a:hover {
+    opacity: 1;
+  }
+  
+  #mobile-nav ul li li {
+    padding-left: 30px;
+  }
+  
+  #mobile-nav ul .menu-has-children i {
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  #mobile-nav ul .menu-has-children li a {
+    text-transform: none;
+  }
+  
+  #mobile-body-overly {
+    width: 100%;
+    height: 100%;
+    z-index: 997;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+  
+  /* Mobile Nav body classes */
+  body.mobile-nav-active {
+    overflow: hidden;
+  }
+  
+  body.mobile-nav-active #mobile-nav {
+    right: 0;
+  }
+  
+  body.mobile-nav-active #mobile-nav-toggle {
+    color: #fff;
+  }
+
+  .main {
+    height: calc(100vh - 65px);
+  }
+
+  .login-container {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 30%;
+    padding: 2em;
+    background: white;
+    border-radius: 10px;
+  }
+
+  .login-container h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #00bbf0;
+  }
+
+  .login-container p {
+    font-size: 16px;
+    color: #4a4f59;
+  }
+
+  .login-form form input {
+      color: #4a4f59;
+      font-size: 16px;
+      height: 40px;
+      margin: 5px 0;
+  }
+
+/* =================================== */
+/*  Centro de control
+/* =================================== */
+
+/*------------------------------------------------------------------
+
+[ cchome ]*/
+  
+  .section-cchome {
+    display: none;
+    margin: 0 0 4em 0;
+  }
+  
+  @supports (display: grid) {
+    .section-cchome {
+      display: block;
+    }
+  }
+  
+  .section-cchome .grid {
+    display: grid;
+    margin: 1.5em 20px 0 0;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 150px;
+    grid-auto-flow: row dense;
+  }
+  
+  @media (max-width: 700px) {
+    .section-cchome .grid {
+      margin: 1.5em 0 0 0;
+    }
+  }
+  
+  .section-cchome .grid .item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    background: transparent;
+    grid-column-start: auto;
+    grid-row-start: auto;
+    color: #fff;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.1);
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    cursor: pointer;
+    counter-increment: item-counter;
+  }
+  
+  .section-cchome .grid .item:nth-of-type(1n) {
+    background-image: url(../controlcenter/img/paquetes.png);
+  }
+  .section-cchome .grid .item:nth-of-type(2n) {
+    background-image: url(../controlcenter/img/reservas.png);
+  }
+  .section-cchome .grid .item:nth-of-type(3n) {
+    background-image: url(../controlcenter/img/galeria.png);
+  }
+  .section-cchome .grid .item:nth-of-type(4n) {
+    background-image: url(../controlcenter/img/destinos.png);
+  }
+  
+  .section-cchome .grid .item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 0.3s ease-in-out;
+  }
+  .section-cchome .grid .item:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  .section-cchome .grid .item--medium {
+    grid-row-end: span 2;
+  }
+  .section-cchome .grid .item--large {
+    grid-row-end: span 3;
+  }
+  @media screen and (min-width: 768px) {
+    .section-cchome .grid .item--full {
+      grid-column: 1/-1;
+      grid-row-end: span 2;
+    }
+  }
+  .section-cchome .grid .item__details {
+    position: relative;
+    z-index: 1;
+    padding: 6px;
+  }
+  
+  .section-cchome .grid .item__details p {
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: lowercase;
+    margin: 0 3px 0 0;
+    font-weight: 600;
+    color: #00bbf0;
+  }
+
+/* =================================== */
+/*  Info diplay
+/* =================================== */
+  
+  i {
+      font-size: 20px !important;
+  }
