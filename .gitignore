@@ -2,3 +2,6 @@
 img/.DS_Store
 img-reservar/.DS_Store
 img-reservar/slides/.DS_Store
+.DS_Store
+.gitignore
+js/.DS_Store

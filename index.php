@@ -21,12 +21,12 @@ excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link href="css-reservar/bootstrap.min.css" rel="stylesheet">
-    <link href="css-reservar/style.css" rel="stylesheet">
-	<link href="css-reservar/vendors.css" rel="stylesheet">
+    <link href="css/reservar/bootstrap.min.css" rel="stylesheet">
+    <link href="css/reservar/style.css" rel="stylesheet">
+	<link href="css/reservar/vendors.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 
-	<script src="js-reservar/modernizr.js"></script>
+	<script src="js/reservar/modernizr.js"></script>
 </head>
 
 <body>
@@ -198,14 +198,14 @@ excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para 
 	<a class="cd-nav-trigger" href=".././"><i class="lnr lnr-chevron-left"></i></a>
 
 	<!-- COMMON SCRIPTS -->
-	<script src="js-reservar/jquery-3.2.1.min.js"></script>
-    <script src="js-reservar/common_scripts.min.js"></script>
-	<script src="js-reservar/velocity.min.js"></script>
-	<script src="js-reservar/functions.js"></script>
+	<script src="js/reservar/jquery-3.2.1.min.js"></script>
+    <script src="js/reservar/common_scripts.min.js"></script>
+	<script src="js/reservar/velocity.min.js"></script>
+	<script src="js/reservar/functions.js"></script>
 	<script src="js/main.js"></script>
 
 	<!-- Wizard script -->
-	<script src="js-reservar/reservationfuncs.js"></script>
+	<script src="js/reservar/reservationfuncs.js"></script>
   <script>
 	function autocomplete(inp, arr) {
 	  var currentFocus;
