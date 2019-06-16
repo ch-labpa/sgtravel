@@ -13,7 +13,7 @@
 				</ul>
 				<ul class="nav-menu">
 					<li><a href="paquetes"><i class="fa fa-map"></i>&nbsp; Paquetes</a></li>
-					<li><a href="enpanama"><i class="fa fa-compass"></i>&nbsp; En Panamá</a></li>
+					<li><a href=""><i class="fa fa-compass"></i>&nbsp; En Panamá</a></li>
 					<li><a href="tips"><i class="fa fa-lightbulb"></i>&nbsp; Tips</a></li>
 					<li><a href="servicios"><i class="fa fa-suitcase"></i>&nbsp; Servicios</a></li>
 					<li class="mobile1" style="color:#4a4f59;"><a> | </a></li>
