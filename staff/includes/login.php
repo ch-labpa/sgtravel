@@ -26,13 +26,9 @@ if (isset($_POST['login']) || isset($_POST['register'])) {
 			$_SESSION['s_username'] = $db_username;
 			$_SESSION['s_firstname'] = $db_user_firstname;
 			$_SESSION['s_lastname'] = $db_user_lastname;
-
-			if ($db_user_role == 'admin') {
-				header("Location: ../controlcenter");
-				exit;
-			}
-		}
-		else {
+			header("Location: ../controlcenter");
+			
+		} else {
 			header("Location: ../index.php");
 			exit;
 		}
