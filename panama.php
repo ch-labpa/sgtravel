@@ -23,7 +23,7 @@ $mysqli ->set_charset('utf8');
 excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para organizar el viaje soñado.">
   <meta name="keywords" content="tips, sg, sgtravel, sgtravel group, sg group, agencia sg, sg agencia, viaje, travel, agencia de viajes, agency, viajes, cruceros, vuelos, carros">
   <meta charset="UTF-8">
-  <title>Tips | SG Travel Group</title>
+  <title>Panamá | SG Travel Group</title>
 
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -47,53 +47,43 @@ excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para 
   Para poder disfrutar de la experiencia completa deberás descargar la ultima versión de tu navegador de internet. <span>El sitio de SG funciona mejor con Google Chrome y Safari.</span> 😅
 </div>
 
-<section class="section-tips">
+<section class="section-enpanama">
 <div class="container">
   <div class="mains">
   <div class="mains-page">
     <div class="mains-header">
-  	<h1>Tips</h1>
-      <h3>Para tu viaje</h3>
+  	<h1>Panamá</h1>
+      <h3>Las maravillas de tu país</h3>
     </div>
   <div class="grid">
-    <div class="item item--large">
-      <div class="item__details">
-        <span>Toma muchas fotos</span> Solo puede ver estos lugares y conocer a estas personas una vez en su vida. Recordarlos para siempre con muchas fotos. No te preocupes por parecer un "turista". ¿Viajas para verte bien? A nadie le importa. Las fotos geniales son el mejor recuerdo.
-      </div>
-    </div>
-    <div class="item item--large">
-      <div class="item__details">
-        <span>Piérdete</span> Si quieres ver las partes de la ciudad donde vive y trabaja la gente real, debes visitarlas. La mejor manera de hacerlo es a pie, sin saber exactamente a dónde vas.
-      </div>
-    </div>
-    <div class="item item--large">
-      <div class="item__details">
-        <span>Prueba la comida local</span> Prueba un poco de todo cuando viajas, especialmente si no sabes de qué se trata.
-      </div>
-    </div>
-    <div class="item item--large">
-      <div class="item__details">
-        <span>Seguro de viaje</span> Nadie piensa que se enfermará, lesionará o robará mientras viaja. Pero sucede. Es mejor prevenir.
-      </div>
-    </div>
     <div class="item item--full">
       <div class="item__details">
-         <span>No planees tanto</span>
-      </div>
-    </div>
-    <div class="item item--medium">
-      <div class="item__details">
-        <span>Viaja relax</span> Lo más importante es relajarte y disfrutar tú viaje.
+        <p>La ciudad</p>
       </div>
     </div>
     <div class="item item--large">
       <div class="item__details">
-        <span>Mantén la guardia</span> Algunas personas muerden, así que mantén un nivel saludable de sospecha. No querrás caer en ninguna estafa o meterte en situaciones incómodas. Sé abierto pero cauteloso.
+        <p>La ciudad</p>
+      </div>
+    </div>
+    <div class="item item--large">
+      <div class="item__details">
+      <p>La ciudad</p>
+      </div>
+    </div>
+    <div class="item item--large">
+      <div class="item__details">
+        <p>La ciudad</p>
       </div>
     </div>
     <div class="item item--medium">
-      <div class="item__details item--full">
-        <span>Toma solo lo que necesitas</span> Limita la cantidad de dinero en efectivo y tarjetas que llevas contigo, de modo que si ocurre algo, puedes recuperarte fácilmente.
+      <div class="item__details">
+        <p>La ciudad</p>
+      </div>
+    </div>
+    <div class="item item--medium">
+      <div class="item__details">
+        <p>La ciudad</p>
       </div>
     </div>
   </div>

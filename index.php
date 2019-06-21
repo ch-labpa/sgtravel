@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120498835-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-120498835-1');
-  </script>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" href="img/fav.ico">
-  <meta name="author" content="SG Travel Group">
-  <meta name="description" content="SG es una agencia de viajes con más de 30 años de experiencia ofrecemos las mejores ofertas de viajes, hoteles , alquiler de autos,
-excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para organizar el viaje soñado.">
-  <meta name="keywords" content="sg, sgtravel, sgtravel group, sg group, agencia sg, sg agencia, viaje, travel, agencia de viajes, agency, viajes, cruceros, vuelos, carros">
-  <meta charset="UTF-8">
-  <title>Reservar | SG Travel Group</title>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120498835-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-120498835-1');
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="img/fav.ico">
+	<meta name="author" content="SG Travel Group">
+	<meta name="description" content="SG es una agencia de viajes con más de 30 años de experiencia ofrecemos las mejores ofertas de viajes, hoteles , alquiler de autos,
+	excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para organizar el viaje soñado.">
+	<meta name="keywords" content="sg, sgtravel, sgtravel group, sg group, agencia sg, sg agencia, viaje, travel, agencia de viajes, agency, viajes, cruceros, vuelos, carros">
+	<meta charset="UTF-8">
+	<title>Reservar | SG Travel Group</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link href="css/reservar/bootstrap.min.css" rel="stylesheet">
-    <link href="css/reservar/style.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/reservar/style.css" rel="stylesheet">
 	<link href="css/reservar/vendors.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/magnific-popup.css">
+  	<link rel="stylesheet" href="css/jquery-ui.css">
+  	<link rel="stylesheet" href="css/nice-select.css">
+  	<link rel="stylesheet" href="css/animate.min.css">
+  	<link rel="stylesheet" href="css/owl.carousel.css">
+  	<link rel="stylesheet" href="css/jquery-ui.css">
 
 	<script src="js/reservar/modernizr.js"></script>
 </head>
@@ -41,13 +47,13 @@ excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para 
 	<div id="loader_form">
 		<div data-loader="circle-side-2"></div>
 	</div>
-	<div class="container-fluid full-height" style="margin-top: 4.5em;">
+	<div class="container" style="margin-top: 4.3em;">
 		<div class="row row-height bg">
 			<div class="col-lg-6 content-left">
 				<div class="content-left-wrapper">
 					<div class="wrapper">
 						<div class="left_title">
-							<h3>Solicita tu Reserva</h3>
+							<h3>Haz tu reserva</h3>
 							<p>Cómodo. Rápido. Fácil.</p>
 						</div>
 					</div>
@@ -202,10 +208,19 @@ excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para 
     <script src="js/reservar/common_scripts.min.js"></script>
 	<script src="js/reservar/velocity.min.js"></script>
 	<script src="js/reservar/functions.js"></script>
-	<script src="js/main.js"></script>
 
 	<!-- Wizard script -->
 	<script src="js/reservar/reservationfuncs.js"></script>
+  	<script src="js/popper.min.js"></script>
+  	<script src="js/vendor/bootstrap.min.js"></script>
+  	<script src="js/easing.min.js"></script>
+  	<script src="js/hoverIntent.js"></script>
+  	<script src="js/superfish.min.js"></script>
+  	<script src="js/jquery.ajaxchimp.min.js"></script>
+  	<script src="js/jquery.magnific-popup.min.js"></script>
+  	<script src="js/jquery.nice-select.min.js"></script>
+  	<script src="js/owl.carousel.min.js"></script>
+  	<script src="js/main.js"></script>
   <script>
 	function autocomplete(inp, arr) {
 	  var currentFocus;
@@ -329,6 +344,16 @@ excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para 
 			$('input[name="dates"]').on('cancel.daterangepicker', function(ev, picker) {
 				$(this).val('');
 			});
+		});
+	</script>
+	<script>
+		$(window).scroll(function() {    
+		var scroll = $(window).scrollTop();
+			if (scroll >= 20) {
+				$("#header").addClass("header-scrolled");
+			} else {
+				$("#header").removeClass("header-scrolled");
+			}
 		});
 	</script>
 

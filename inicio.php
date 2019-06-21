@@ -93,8 +93,8 @@ excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para 
 				'.$data['stitle1'].'
 			</h4>
       <p>'.$data['stitle2'].'</p>
-      <a href="reservar" class="price-btn"> <span>Desde</span>$'.$data['price'].'</a>
-      <a class="button primary-btn" href="reservar">Reservar ahora</a>
+      <a href="reservar" class="price-btn"> <span>Desde </span>$'.$data['price'].'</a>
+      <a class="button secondary-btn" href="reservar">Reservar</a>
 		</div>
 	</div>';
 		$i++;
@@ -145,7 +145,7 @@ excursiones, paquetes, tramites de Visas, cruceros. Somos tu mejor opción para 
 	$mysqli->select_db(DB);
 	$result = $mysqli->query("SELECT `destinos`.`destino` AS `destino`, `destinos`.`precio` AS `precio`, `destinos`.`img` AS `img` FROM `destinos` ORDER BY `id` ASC");
 	if($mysqli->errno){
-		throw new Exception('Estamos actualizando nuestros destinos! '.$mysqli->error);
+		throw new Exception('<h4>Estamos actualizando nuestros destinos!<h4>');
 	}
 	$i = 1;
 	while($data = $result->fetch_array()){
